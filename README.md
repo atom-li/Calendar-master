@@ -1,13 +1,4 @@
 
-**关注我**
-
-githup:[https://github.com/codbking](https://github.com/codbking)
-
-csdn: [http://my.csdn.net/codbking](http://my.csdn.net/codbking)
-
-****
-# CalendarExaple
-
 # 简介
 这是一个高仿钉钉和小米的日历控件，支持快速滑动，界面缓存。想要定制化UI，使用起来非常简单，就像使用ListView一样
 
@@ -18,41 +9,6 @@ csdn: [http://my.csdn.net/codbking](http://my.csdn.net/codbking)
 3. 支持农历和阳历
 4. 界面UI缓存和日历数据缓存
 5. 扩展view支持listView的滑动
-
-**效果**
-
-**[apk下载](https://raw.githubusercontent.com/codbking/CalendarExaple/master/calendar_demo.apk)**
-
-*  **先上两张demo的效果图，分别是仿小米和钉钉日历效果图**
-
-<img src="image/a1.jpg" height="576" width="324" style="margin-left:100"/>
-<img src="image/a2.jpg"  height="576" width="324" style="margin-left:100"/>
-
-*  **再看下交互效果**
-
-![Alt text](image/bbbb.gif)
-
-
-
-### how to use
-
- - **Add it in your root build.gradle at the end of repositories:**
-
-```
-	    allprojects {
-		   repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	    }
-```
-
- -  **Add the dependency**
-```sh
-	dependencies {
-	        compile 'com.github.codbking:CalendarExaple:v1.0.0'
-	}
-```
 
 - **在layout的xml中添加CalendarLayout和CalendarDateView**
 
@@ -113,13 +69,3 @@ csdn: [http://my.csdn.net/codbking](http://my.csdn.net/codbking)
                 mTitle.setText(bean.year + "/" + bean.moth + "/" + bean.day);
             }
         });
-```
-
-### 联系我
-
-**email:codbking@gmail.com**
-
-
-
-
-
